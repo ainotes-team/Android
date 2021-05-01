@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/text_view_directory_title"
+        style="@style/BottomSheetFileItem"
+        android:layout_marginTop="0dp"
+        android:drawableStart="@drawable/ic_folder" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCD7D7" />
+
+    <TextView
+        android:id="@+id/text_view_share_directory"
+        style="@style/BottomSheetFileItem"
+        android:drawableStart="@drawable/ic_share"
+        android:text="@string/share" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="36dp"
+        android:background="#DCD7D7" />
+
+    <TextView
+        android:id="@+id/text_view_copy_directory"
+        style="@style/BottomSheetFileItem"
+        android:drawableStart="@drawable/ic_copy"
+        android:text="@string/copy" />
+
+    <TextView
+        android:id="@+id/text_view_move_directory"
+        style="@style/BottomSheetFileItem"
+        android:drawableStart="@drawable/ic_move"
+        android:text="@string/move" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="36dp"
+        android:background="#DCD7D7" />
+
+    <TextView
+        android:id="@+id/text_view_rename_directory"
+        style="@style/BottomSheetFileItem"
+        android:drawableStart="@drawable/ic_edit"
+        android:text="@string/rename" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="36dp"
+        android:background="#DCD7D7" />
+
+    <TextView
+        android:id="@+id/text_view_remove_directory"
+        style="@style/BottomSheetFileItem"
+        android:drawableStart="@drawable/ic_delete"
+        android:text="@string/remove" />
+</LinearLayout>

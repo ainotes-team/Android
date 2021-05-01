@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/adjust_corners_button"
+        android:title="@string/adjust_corners"
+        android:icon="@drawable/ic_perspective_cropping" />
+
+    <item android:id="@+id/crop_button"
+        android:title="@string/crop"
+        android:icon="@drawable/ic_crop" />
+
+    <item android:id="@+id/filter_button"
+        android:title="@string/filter"
+        android:icon="@drawable/ic_photo_filter" />
+
+</menu>

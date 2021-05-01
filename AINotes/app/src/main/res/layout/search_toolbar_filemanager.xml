@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bar_background"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/navigation_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@null"
+        android:src="@drawable/ic_hamburger" />
+
+    <EditText
+        android:id="@+id/search_text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cursorVisible="false"
+        android:fontFamily="sans-serif"
+        android:hint="@string/search" />
+
+    <ImageButton
+        android:id="@+id/profile_picture"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+</LinearLayout>

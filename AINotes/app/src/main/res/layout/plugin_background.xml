@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/plugin_border" />
+
+    <ImageButton
+        android:id="@+id/move_nob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/plugin_nob_background"
+        android:contentDescription="@string/move"
+        android:src="@drawable/ic_drag"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/resize_to_right_nob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/plugin_nob_background"
+        android:contentDescription="@string/resize_to_right"
+        android:src="@drawable/ic_scale_to_right"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/resize_nob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/plugin_nob_background"
+        android:contentDescription="@string/resize"
+        android:rotation="45"
+        android:src="@drawable/ic_scale_to_right"
+        android:visibility="invisible" />
+
+</FrameLayout>
